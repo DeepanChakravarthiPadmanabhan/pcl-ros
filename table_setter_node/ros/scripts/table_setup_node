@@ -1,0 +1,4 @@
+import table_setup_ros.table_setup_ros
+
+if __name__ == '__main__':
+    table_setup_ros.table_setup_ros.main()

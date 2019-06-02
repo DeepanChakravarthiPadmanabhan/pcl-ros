@@ -1,0 +1,3 @@
+/home/deepan/PycharmProjects/SDP/convex_hull/CMakeFiles/rebuild_cache.dir
+/home/deepan/PycharmProjects/SDP/convex_hull/CMakeFiles/edit_cache.dir
+/home/deepan/PycharmProjects/SDP/convex_hull/CMakeFiles/convex_hull_2d.dir

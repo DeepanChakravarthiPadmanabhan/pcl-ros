@@ -1,0 +1,3 @@
+/home/deepan/PycharmProjects/SDP/transformation/CMakeFiles/rebuild_cache.dir
+/home/deepan/PycharmProjects/SDP/transformation/CMakeFiles/edit_cache.dir
+/home/deepan/PycharmProjects/SDP/transformation/CMakeFiles/matrix_transform.dir
