@@ -1,6 +1,6 @@
 <launch>
   <node pkg="table_setter_node" type="table_setup_node"
-	name="table_setup_node" output="screen">
+	name="table_setter_node" output="screen">
     <remap from="~set_table_trigger" to="/table_setter_node/table_setup_node/set_table_trigger" />
     <remap from="~convex_hull_input" to="/convex_hull_node/convex_hull_input" />
 <!-- <rosparam file="$(arg scene_segmentation_config_file)" command="load"/> -->

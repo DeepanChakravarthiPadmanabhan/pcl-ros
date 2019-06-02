@@ -199,6 +199,5 @@ include_directories(
 # catkin_add_nosetests(test)
 install(PROGRAMS
   ros/scripts/table_setup_node
-  ros/src/table_setup_ros
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )

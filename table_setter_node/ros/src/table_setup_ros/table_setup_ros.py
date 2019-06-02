@@ -1,13 +1,13 @@
 import tf
 import rospy
-import std_msgs
+from std_msgs.msg import String
 from geometry_msgs.msg import PolygonStamped
 
 class table_setup_ros:
     def __init__(self):
         '''Subscriber'''
-        self.convex_hull_subscriber_ = rospy.Subscriber('convex_hull_input', PolygonStamped, self.table_display_cb)
-        self.table_setup_event_in_ = rospy.Subscriber("set_table_trigger", std_msgs.msg.String, self.event_in_cb)
+        self.convex_hull_subscriber_ = rospy.Subscriber('~convex_hull_input', PolygonStamped, self.table_display_cb)
+        self.table_setup_event_in_ = rospy.Subscriber('~set_table_trigger', String, self.event_in_cb)
 
     def table_display_cb(self, polygon_convex_hull):
         rospy.loginfo("Displaying table task")
@@ -19,7 +19,6 @@ class table_setup_ros:
 
 
 def main():
-    rospy.init_node('[table setter node] started')
+    rospy.init_node('table_setter_node')
     object_ = table_setup_ros()
-    object_.start()
 
